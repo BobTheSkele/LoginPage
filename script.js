@@ -9,10 +9,11 @@ function login() {
 
     // Check if the entered credentials are correct
     if (username === correctUsername && password === correctPassword) {
-        // Redirect to the Google Drive PDF link
-        window.location.href = "https://drive.google.com/file/d/1O8rLUZsWmYvU-mP6FMBc9p72a0dBWwqJ/view?usp=sharing";
+        // Redirect to the Dropbox PDF link
+        window.location.href = "https://www.dropbox.com/scl/fi/ujat57s5h01grcg2dlrbi/Terms-Of-Service-1.pdf?rlkey=6aov6anvaapu5r7ek8h792vzz&st=dux7fc5q&raw=1";
     } else {
         // Show an error message if credentials are incorrect
         errorMessage.textContent = "Incorrect username or password. Try again.";
     }
 }
+
