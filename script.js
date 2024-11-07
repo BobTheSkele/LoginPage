@@ -9,8 +9,8 @@ function login() {
 
     // Check if the entered credentials are correct
     if (username === correctUsername && password === correctPassword) {
-        // Redirect to your Google Site URL
-        window.location.href = "https://sites.google.com/mevsd.net/drewbucks/home";
+        // Redirect to the Google Docs link
+        window.location.href = "https://docs.google.com/document/d/1Tj_b0_asUkBTjDaA62jFJdLrlBCc2_thev9MP8AHmsg/edit?usp=sharing";
     } else {
         // Show an error message if credentials are incorrect
         errorMessage.textContent = "Incorrect username or password. Try again.";
